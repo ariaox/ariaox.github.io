@@ -1,0 +1,254 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  margin: 0;
+  padding: 0;
+  font-family: "Faster One", cursive;
+  font-size: 7em;
+  float: left;
+}
+
+a#cart {
+  float: right;
+}
+
+.head-nav {
+  padding: 50px;
+  background-image: linear-gradient(135deg, #9305ff5e 10%, #fd5e086b 100%);
+}
+
+nav {
+  padding-block-start: 0.5%;
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+  padding-inline-end: 15%;
+}
+
+.head-nav a {
+  text-decoration: none;
+  padding: 15px;
+  display: inline-block;
+  font-family: "Monoton", cursive;
+  color: #890fbb;
+  font-size: 2em;
+}
+
+header {
+  background: url("./images/top-head1.jpg");
+  width: 100%;
+  height: 900px;
+  background-size: cover;
+  overflow: hidden;
+  text-align: center;
+}
+
+.fotoProduk {
+  height: 200px;
+  width: 230px;
+}
+
+.puma {
+  height: 200px;
+  width: 230px;
+}
+.produk {
+  width: 300px;
+  height: 300px;
+  margin: 50px 10px 50px 10px;
+  padding: 15px;
+  text-align: center;
+  display: inline-block;
+}
+
+.wrap {
+  width: 1100px;
+  height: 400px;
+  margin: 0 auto;
+  font-family: "Helvetica neue", sans-serif;
+  padding: 0;
+}
+
+.puma {
+  height: 220px;
+  width: 200px;
+}
+
+/* for footer */
+footer {
+  height: 500px;
+  background-color: #d3d3d3;
+  padding-left: 20px;
+  height: 400px;
+  background-image: linear-gradient(135deg, #9305ff5e 10%, #fd5e086b 100%);
+}
+
+.logo h1 {
+  text-align: left;
+  font-family: "Faster One", cursive;
+  font-size: 40px;
+}
+
+h5 {
+  font-style: italic;
+  text-align: center;
+  font-family: "Helvetica Neue";
+}
+
+form {
+  text-align: center;
+  font-family: "Helvetica Neue";
+  margin: 30px;
+}
+
+#submission {
+  display: center;
+}
+.boxed {
+  border: 1px solid greenyellow;
+  font-size: 14px;
+  font-family: "Helvetica Neue";
+  padding: 20px 20px;
+  left: 45%;
+  position: relative;
+  margin: -50px;
+  margin-top: 20px;
+  height: 80px;
+  text-align: center;
+  display: inline-block;
+}
+.email-newsletter {
+  display: center;
+}
+
+/* section cart */
+
+table.cart {
+  border: 0px solid #000000;
+  width: 100%;
+  text-align: left;
+  border-collapse: collapse;
+}
+table.cart td,
+table.cart th {
+  border: 0px solid #000000;
+  padding: 5px 4px;
+}
+
+thead,
+tbody {
+  text-align: center;
+}
+
+table.cart tbody td {
+  font-size: 18px;
+}
+table.cart thead {
+  background: #9900ff;
+  border-bottom: 0px solid #000000;
+}
+table.cart thead th {
+  font-size: 20px;
+  font-weight: bold;
+  color: #ffffff;
+  text-align: center;
+}
+table.cart tfoot {
+  font-size: 14px;
+  font-weight: bold;
+  color: #000000;
+  border-top: 3px solid #000000;
+  text-align: center;
+}
+table.cart tfoot td {
+  font-size: 18px;
+}
+
+.form-cart {
+  border: none;
+  font: 95% Arial, Helvetica, sans-serif;
+  max-width: 350px;
+  margin: 10px auto;
+  padding: 5px;
+  background: #f7f7f7;
+}
+
+#infoz {
+  width: 100%;
+  padding: 12px 10px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+table.cart {
+  border: 0px solid #000000;
+  width: 100%;
+  text-align: left;
+  border-collapse: collapse;
+}
+table.cart td,
+table.cart th {
+  border: 0px solid #000000;
+  padding: 5px 4px;
+}
+
+thead,
+tbody {
+  text-align: center;
+}
+
+table.cart tbody td {
+  font-size: 18px;
+}
+table.cart thead {
+  background: #9900ff;
+  border-bottom: 0px solid #000000;
+}
+table.cart thead th {
+  font-size: 20px;
+  font-weight: bold;
+  color: #ffffff;
+  text-align: center;
+}
+table.cart tfoot {
+  font-size: 14px;
+  font-weight: bold;
+  color: #000000;
+  border-top: 3px solid #000000;
+  text-align: center;
+}
+table.cart tfoot td {
+  font-size: 18px;
+}
+
+form.form {
+  border: none;
+  font: 95% Arial, Helvetica, sans-serif;
+  max-width: 350px;
+  margin: 10px auto;
+  padding: 5px;
+  background: #f7f7f7;
+}
+
+.send {
+  width: 100%;
+  padding: 12px 10px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type="submit"] {
+  background-color: #4caf50;
+  font-size: 15;
+}
